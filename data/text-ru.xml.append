@@ -44,10 +44,10 @@
 	<text name="fusion_aug_RADIUS_REDUCTION_desc" language="ru">Уменьшает разброс оружия на 10.</text>
 	<text name="fusion_aug_FIRE_IMMUNITY_title" language="ru">Иммунитет к огню</text>
 	<text name="fusion_aug_FIRE_IMMUNITY_desc" language="ru">Системы не повреждаются огнем.</text>
-	<text name="fusion_aug_DEIONIZATION_BOOST_title" language="ru">Усилитель деипнизации</text>
+	<text name="fusion_aug_DEIONIZATION_BOOST_title" language="ru">Усилитель деионизации</text>
 	<text name="fusion_aug_DEIONIZATION_BOOST_desc" language="ru">Ионный урон снимается быстрее.</text>
 	<text name="fusion_aug_FUSION_NO_BREACH_title" language="ru">Отражение пробоин</text>
-	<text name="fusion_aug_FUSION_NO_BREACH_desc" language="ru">Снижает шанс пробоинов на 10%</text>
+	<text name="fusion_aug_FUSION_NO_BREACH_desc" language="ru">Снижает шанс пробоин на 10%</text>
 	<text name="fusion_aug_FUSION_NO_FIRE_title" language="ru">Отражение пожара</text>
 	<text name="fusion_aug_FUSION_NO_FIRE_desc" language="ru">Снижает шанс пожара на 10%</text>
 	<text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_title" language="ru">Противоастероидное покрытие</text>
