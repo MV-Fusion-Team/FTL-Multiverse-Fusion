@@ -257,6 +257,16 @@
 	<stackable>true</stackable>
 </augBlueprint>
 
+<augBlueprint name="FUS_TEMP_HULL_JUMP">
+	<title id="fusion_aug_FUS_TEMP_HULL_JUMP_title"/>
+	<desc id="fusion_aug_FUS_TEMP_HULL_JUMP_desc"/>
+	<cost>0</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<value>1</value>
+	<stackable>true</stackable>
+</augBlueprint>
+
 
 <mod:findName type="weaponBlueprint" name="BEAM_REPAIR">
 	<mod-overwrite:sp>-1</mod-overwrite:sp>

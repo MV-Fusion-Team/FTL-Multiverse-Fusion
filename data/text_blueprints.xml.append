@@ -53,4 +53,6 @@
 	<text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_desc">Asteroids do no damage to your ship.</text>
 	<text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_title">Anti-Asteroid Shielding</text>
 	<text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_desc">Asteroids do not pop shields.</text>
+	<text name="fusion_aug_FUS_TEMP_HULL_JUMP_title">Give Temp Hull On Jump</text>
+	<text name="fusion_aug_FUS_TEMP_HULL_JUMP_desc">YOU SHOULD NEVER SEE THIS</text>
 </FTL>

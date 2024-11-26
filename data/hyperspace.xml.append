@@ -94,6 +94,7 @@
 		<mod-append:script>data/fusion_scripts/dialogueBoxes.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/resist_indicators.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/patch_error.lua</mod-append:script>
+		<mod-append:script>data/fusion_scripts/tempHullHp.lua</mod-append:script>
 		
 		<mod-append:script>data/fusion_scripts/autoUtil.lua</mod-append:script><!--this was in AutoLibrary-->
 	</mod:findLike>
@@ -163,6 +164,9 @@
 		<aug name="FASTEST_WEAPONS">
 			<function name="AUTO_COOLDOWN" value="9999" useForReqs="true"/>
 		</aug>
+		<!--<aug name="TEMP_HULL_EXAMPLE"> Makes this augment give you 5 temp hull on jump. TEMP_HULL_EXAMPLE is not a real augment.
+			<function name="FUS_TEMP_HULL_JUMP" value="5" useForReqs="true"/>
+		</aug>-->
 	</augments>
 
 </FTL>
