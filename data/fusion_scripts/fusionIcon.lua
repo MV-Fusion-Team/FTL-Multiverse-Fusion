@@ -17,12 +17,13 @@ end
 if not mods.iconsHooked then
 	mods.iconsHooked = true
 	--Render code goes here
-	script.on_render_event(Defines.RenderEvents.MOUSE_CONTROL, function()
+	script.on_render_event(Defines.RenderEvents.FTL_BUTTON, function()
 		if Hyperspace.Global.GetInstance():GetCApp().world.bStartedGame then
 			local renderedAddons = {}
 			local iconCounter = 1
 			for addon, iconTable in pairs(mods.icons) do
 				--print(addon)
+                if iconCounter >= 11 then break end
 				renderedAddons[addon] = true
 				local xOffset = 115 + (iconCounter * 24)
 				local yOffset = 7
@@ -48,6 +49,7 @@ if not mods.iconsHooked then
 
             for addon, iconTable in pairs(mods.iconsUninstalled) do
                 if not renderedAddons[addon] then
+                    if iconCounter >= 11 then break end
                     local xOffset = 115 + (iconCounter * 24)
                     local yOffset = 7
                     local mousePos = Hyperspace.Mouse.position
