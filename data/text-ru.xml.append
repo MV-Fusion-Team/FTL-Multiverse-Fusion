@@ -1,0 +1,227 @@
+<FTL>
+    <!-- blueprints -->
+	<text name="fusion_aug_FAST_MIND_title" language="ru">Ускоритель Контроля разума</text>
+	<text name="fusion_aug_FAST_MIND_desc" language="ru">Уменьшает перезарядку системы Контроля разума на 5 секунд.</text>
+	<text name="fusion_aug_FAST_CLOAK_title" language="ru">Ускоритель Маскировки</text>
+	<text name="fusion_aug_FAST_CLOAK_desc" language="ru">Уменьшает перезарядку системы Маскировки на 5 секунд.</text>
+	<text name="fusion_aug_FAST_HACK_title" language="ru">Ускоритель Взломщика</text>
+	<text name="fusion_aug_FAST_HACK_desc" language="ru">Уменьшает перезарядку системы Взломщика на 5 секунд.</text>
+	<text name="fusion_aug_FAST_TEMPORAL_title" language="ru">Ускоритель Временного манипулятора</text>
+	<text name="fusion_aug_FAST_TEMPORAL_desc" language="ru">Уменьшает перезарядку системы Временного манипулятора на 5 секунд.</text>
+	<text name="fusion_aug_FAST_TELEPORT_title" language="ru">Ускоритель Телепортатора</text>
+	<text name="fusion_aug_FAST_TELEPORT_desc" language="ru">Уменьшает перезарядку системы Телепортатора на 5 секунд.</text>
+	<text name="fusion_aug_FAST_BATTERY_title" language="ru">Ускоритель Батареи</text>
+	<text name="fusion_aug_FAST_BATTERY_desc" language="ru">Уменьшает перезарядку системы Батареи на 5 секунд.</text>
+	<text name="fusion_aug_LONG_MIND_title" language="ru">Удлинитель Контроля разума</text>
+	<text name="fusion_aug_LONG_MIND_desc" language="ru">Удваивает время работы системы Контроля разума.</text>
+	<text name="fusion_aug_LONG_HACK_title" language="ru">Удлинитель Взломщика</text>
+	<text name="fusion_aug_LONG_HACK_desc" language="ru">Удваивает время работы системы Взломщика.</text>
+	<text name="fusion_aug_LONG_BATTERY_title" language="ru">Удлинитель Батареи</text>
+	<text name="fusion_aug_LONG_BATTERY_desc" language="ru">Удваивает время работы системы Батареи.</text>
+	<text name="fusion_aug_HACKING_DAMAGE_title" language="ru">Коррозионный Взломщик</text>
+	<text name="fusion_aug_HACKING_DAMAGE_desc" language="ru">Взломщик теперь наносит системный урон..</text>
+	<text name="fusion_aug_IMMUNE_title" language="ru">Полный иммунитет</text>
+	<text name="fusion_aug_IMMUNE_desc" language="ru">Иммунитет ко всем видам урона, пожарам, пробоинам и саботажу. Ты не сможешь причинить мне вред, Джек.</text>
+	<text name="fusion_aug_IMMUNE_2_title" language="ru">Истинный полный иммунитет</text>
+	<text name="fusion_aug_IMMUNE_2_desc" language="ru">Иммунитет ко всем видам урона, пожарам, пробоинам и саботажу, пожары и пробоины не могут быть созданы оружием. Ты не сможешь причинить мне вред, Джек.</text>
+	<text name="fusion_aug_FAST_WEAPONS_title" language="ru">Быстрое оружие</text>
+	<text name="fusion_aug_FAST_WEAPONS_desc" language="ru">Ускоряет зарядку оружия в 10 раз</text>
+	<text name="fusion_aug_FASTER_WEAPONS_title" language="ru">Более быстрое оружие</text>
+	<text name="fusion_aug_FASTER_WEAPONS_desc" language="ru">Ускоряет зарядку оружия в 50 раз</text>
+	<text name="fusion_aug_FASTEST_WEAPONS_title" language="ru">Самое быстрое оружие</text>
+	<text name="fusion_aug_FASTEST_WEAPONS_desc" language="ru">Ускоряет зарядку оружия в 10000 раз</text>
+	<text name="fusion_aug_WEAPON_LOCKDOWN_title" language="ru">Ядро блокировки оружия</text>
+	<text name="fusion_aug_WEAPON_LOCKDOWN_desc" language="ru">Заставляет все нелучевое оружие применять блокировку.</text>
+	<text name="fusion_aug_AUG_BEAM_PIERCE_title" language="ru">Фазовые частоты лучей</text>
+	<text name="fusion_aug_AUG_BEAM_PIERCE_desc" language="ru">Дает всем лучевым оружиям +1 проникновение щита.</text>
+	<text name="fusion_aug_AUG_EVERYTHING_PIERCE_title" language="ru">Буквально все Фазовые частоты</text>
+	<text name="fusion_aug_AUG_EVERYTHING_PIERCE_desc" language="ru">Дает всем видам оружия +1 пробивание щита.</text>
+	<text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_title" language="ru">Фазовые частоты лучей</text>
+	<text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_desc" language="ru">Дает всем лучевым дронам +1 проникновение щита.</text>
+	<text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_title" language="ru">Буквально все Фазовые частоты</text>
+	<text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_desc" language="ru">Дает всем дронам +1 проникновение щита.</text>
+	<text name="fusion_aug_RADIUS_REDUCTION_title" language="ru">Уменьшение радиуса</text>
+	<text name="fusion_aug_RADIUS_REDUCTION_desc" language="ru">Уменьшает разброс оружия на 10.</text>
+	<text name="fusion_aug_FIRE_IMMUNITY_title" language="ru">Иммунитет к огню</text>
+	<text name="fusion_aug_FIRE_IMMUNITY_desc" language="ru">Системы не повреждаются огнем.</text>
+	<text name="fusion_aug_DEIONIZATION_BOOST_title" language="ru">Усилитель деионизации</text>
+	<text name="fusion_aug_DEIONIZATION_BOOST_desc" language="ru">Ионный урон снимается быстрее.</text>
+	<text name="fusion_aug_FUSION_NO_BREACH_title" language="ru">Отражение пробоин</text>
+	<text name="fusion_aug_FUSION_NO_BREACH_desc" language="ru">Снижает шанс пробоин на 10%</text>
+	<text name="fusion_aug_FUSION_NO_FIRE_title" language="ru">Отражение пожара</text>
+	<text name="fusion_aug_FUSION_NO_FIRE_desc" language="ru">Снижает шанс пожара на 10%</text>
+	<text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_title" language="ru">Противоастероидное покрытие</text>
+	<text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_desc" language="ru">Астероиды не наносят вашему кораблю никакого урона.</text>
+	<text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_title" language="ru">Противоастероидные щиты</text>
+	<text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_desc" language="ru">Астероиды не разрушают щиты.</text>
+    
+    <!-- events -->
+    <text name="do_something" language="ru">Заняться чем-либо на корабле.</text>
+    <text name="nevermind" language="ru">Неважно.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_text" language="ru">Выберите, что вы хотите сделать на борту корабля во время гиперскорости, у вас есть несколько вариантов.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c1_text" language="ru">Использовать модуль гиперскорости.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c2_text" language="ru">Вы уже использовали модуль гиперскорости.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c3_text" language="ru">Посмотреть доступные задания от К.У.Р.А.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c4_text" language="ru">Вы уже приняли задание от К.У.Р.А.</text>
+    <text name="event_ATLAS_MENU_NOEQUIPMENT_c_append_text" language="ru">Перейти в столицу Федерации.</text>
+    <text name="event_ADDON_FUSION_INFO_c2_text" language="ru">Включить экран статистики модулей</text>
+    <text name="event_ADDON_FUSION_INFO_c3_text" language="ru">Выключить экран статистики модулей</text>
+    <text name="event_ADDON_FUSION_INFO_c4_text" language="ru">Включить инвертированное включение экрана статистики модулей</text>
+    <text name="event_ADDON_FUSION_INFO_c5_text" language="ru">Выключить инвертированное включение экрана статистики модулей</text>
+    <text name="event_ADDON_FUSION_INFO_c6_text" language="ru">Показать кнопки информации об аддонах</text>
+    <text name="event_ADDON_FUSION_INFO_c7_text" language="ru">Скрыть кнопки информации об аддонах</text>
+    <text name="event_ADDON_FORGEMASTER_INFO_c2_text" language="ru">Проверить рецепты крафта.</text>
+    <text name="event_ADDON_PIP_INFO_c2_text" language="ru">больше информации...</text>
+    <text name="event_FUSION_RESET_text" language="ru">Функции Fusion ONJUMP, ONDAMAGE были сброшены.</text>
+    <text name="event_FUSION_DEACTIVATE_text" language="ru">Fusion ONJUMP, ONDAMAGE отключены, обновление теперь должно быть безопасным.</text>
+
+    <!-- tooltips -->
+    <text name="inactiveTooltip_unavailable" language="ru">Недоступно!</text>
+    <text name="inactiveTooltip_unavailable_in_danger" language="ru">Недоступно: Вы не можете это сделать, находясь в опасности!</text>
+    <text name="tooltip_toggle_drone_weapon" language="ru">Переключить дрон или оружие.</text>
+    <text name="tooltip_open_storage_nemu" language="ru">Открыть меню склада.</text>
+
+    <!-- misc-->
+    <text name="addon_hover_fusion" language="ru">FUSION
+В настоящее время включен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_fusion" language="ru">FUSION
+Разработчики: Kommandant_Julk, Chrono Vortex, Arc, Pepson, Choosechee
+В настоящее время включен.
+
+Этот аддон содержит переключаемые функции QoL, пользовательские XML-теги и утилитные функции Lua. Он предназначен для заполнения роли зависимостей, которую ранее занимал Inferno-Core.
+    </text>
+    
+    <text name="addon_hover_forgemaster" language="ru">FORGEMASTER
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_forgmaster" language="ru">FORGEMASTER
+Разработчики: Cyrus106, Abstrusity, Maxine, Radish, SeaDragonet, Kommandant_Julk, Vertaalfout, DemonFusionGamer и Skye
+В настоящее время отключен.
+
+Крупное расширение для Multiverse! Оно включает в себя новых NPC, квесты, оружие, сектора, боссов и многое другое. Скоро появятся дроны и модули! Главное нововведение: система изготовления оружия, позволяющая комбинировать.
+Многочисленные комбинации оружия превращаются в более сильные варианты (или, по крайней мере, в побочные). Это оружие должно сиять ярче всего при использовании на кораблях с меньшим количеством слотов для оружия и использовать самые новые и сложные возможности гиперпространства для совершенно уникальных ощущений!
+(для этого был разработан аддон Fusion)
+
+Чтобы включить Forgemaster, посетите форумы Multiverse!
+    </text>
+
+    <text name="addon_hover_gb" language="ru">GO-BALLISTIC-2
+В настоящее время устарел.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_gb" language="ru">GO-BALLISTIC-2
+Разработчики: R4V3-0N, porcu93, cgjunior, laszlogasd, Madoktor, RobintheDragon2, Kommandant_Julk и ранее ChronoVortex
+В настоящее время отключен.
+
+Этот мод добавляет 16 новых баллистических орудий и 1 нового переключаемого дрона, созданных на основе устаревшего баллистического оружия Федерации во время войны Федерации и богомолов.
+Эта версия создана для использования с Multiverse 5.3.1. Мод является переработкой и обновлением оригинальной версии GO BALLISTIC!, созданной R4V3-0N при значительной помощи ChronoVortex. Мод содержит новые арты, звуковые эффекты и полностью перебалансирует оружие и дронов оригинала.
+Переосмысление ниши этого оружия с использованием нового функционала Hyperspace, не существовавшего на момент создания оригинального мода, и небольшой команды друзей.
+
+Чтобы включить Go Ballistic 2, посетите форумы Multiverse!
+    </text>
+    <text name="addon_hover_tcc" language="ru">TRASH COMPACTOR COLLABORATION
+Устарел.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_tcc" language="ru">TRASH COMPACTOR COLLABORATION
+Разработчики: Zuggo, Dalvest, Enchanter, Cryntolov, Ashley, NitronEXE, LandGreen, Choosechee, ConMan, Kommandant_Julk
+В настоящее время отключен.
+
+Крупное расширение для Multiverse, включающее такие интересные вещи, как совершенно новая раса улучшаемых ланиусов, целая страница новых кораблей и горстка оружия.
+
+Теперь включает в себя множество других модов, таких как Bomb Flaks и Instant Flair.
+
+Не совместим с mv 5.3.1+, извините.
+    </text>
+    <text name="addon_hover_fr" language="ru">FORGOTTEN RACES
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_fr" language="ru">FORGOTTEN RACES
+Разработчики: Gabriel Cooper и HereticChurch
+В настоящее время отключен.
+
+Этот аддон добавляет актуальный контент для вымершей третьей расы обелисков - Содружества. 
+В настоящее время в базовом MV они давно вымерли, из их арсенала сохранился только Крейсер обелисков тип В и разрушенное тело обелиска Содружества в Крейсере Сильвана тип Б.
+
+Контент, включенный для этой расы, состоит из: Версию почти всего обелиска Содружества, включая дронов, оружие и даже когнитивов. Аддон также включает в себя обновленный корабль Содружества, который вы можете разблокировать, и этот корабль имеет эксклюзивный модуль, который позволяет вам крафтить контент Содружества.
+
+Однако этот аддон включает в себя не только синие кубы, но и добавляет синий тип экипажа ланиусов и их корабль, который повторяет Возвышенных и Возвышенную королеву, только синего цвета, чтобы отразить их потребление материала Содружества.
+
+Среди прочего контента: совершенно новая раса Металлических алмазов с ланиусными и когнитивными эквивалентами для их вещей, а также оружие и корабли для них (всего есть 3 типа Металлических алмазов, каждый из которых фокусируется на своих сильных и слабых сторонах). Аддон также добавляет Тестера, корабль, который существует в файлах, но так и не был добавлен официально, чтобы люди могли поиграть с типами Б и В в придачу, а также линейку Флагмана Легиона.
+
+Будьте осторожны, баланс в аддоне довольно изменчив и может прийтись не всем по вкусу. Хотя разработчики и стараются, чтобы контент был в какой-то степени сбалансирован вокруг себя, это не тот подход, что в базовом MV.
+
+tl;dr: больше кубов и ланиусов со вкусом кубов, баланс не идеален, проверка опечаток не гарантируется
+
+Чтобы включить Forgotten Races, зайдите на форумы Multiverse!
+    </text>
+    <text name="addon_hover_bag" language="ru">BAG OF DUMB
+В настоящее время устарел.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_bag" language="ru">BAG OF DUMB
+Разработчики: Felipemello29, cgjunior, geckoindisguise, Enchanter, moreorlesser, AgentTHeKat, Laythe, MaddieDoktor, DemonFusionGamer, R4V3-0N, Vertaalfout и Kommandant_Julk
+В настоящее время отключен.
+
+"Это существует без вашего согласия".
+Дополнительные упоминания не совсем разработчиков: Kix, Cyrus106, команда разработчиков Forgemaster, Admiral Billy 
+Тестировщики: Skye, Digger4Money
+
+Чтобы включить Bag of Dumb, зайдите на форумы multiverse!
+    </text>
+    <text name="addon_hover_aa" language="ru">ALDER'S ADDITIONS
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_aa" language="ru">Alder's Additions: First Strike
+Разработчики: Alder, Vertaalfout, Chrono Vortex
+В настоящее время отключен.
+
+Расширение, содержащее множество необычных видов оружия и служащее основой для будущих частей дополнения Alder's Additions. Поскольку этот мод находится в стадии открытого бета-тестирования, он может содержать экстремальные вариации баланса; играйте на свой страх и риск!
+
+Чтобы включить Alder's Additions, спросите об этом у Alder'а.
+    </text>
+    <text name="addon_hover_cnc" language="ru">C&amp;C WEAPONS
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_cnc" language="ru">C&amp;C WEAPONS: RENEGADE EDITION
+Разработчик: Chrono Vortex
+Дополнительные титры: Vertaalfout, R4V3-0N
+В настоящее время отключен.
+
+Добавляет более десятка новых видов оружия и пару других сюрпризов по мотивам франшизы Command and Conquer. 
+
+Чтобы включить C&amp;C Weapons, зайдите на форумы subset и посетите страницу аддона MV!
+    </text>
+    <text name="addon_hover_pip" language="ru">PIRACY IS POGGERS
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_pip" language="ru">PIRACY IS POGGERS
+Разработчик: TerryIsOP
+Особая благодарность Chrono Vortex и Julk за помощь в процессе кодирования.
+В настоящее время отключен.
+
+Этот аддон расширяет существующую систему репутации пиратов, присутствующую в базовой версии Multiverse. 
+Особенности включают:
+- Многие события из базовой МВ теперь дают возможность получить/потерять репутацию.
+- Увеличение шансов встретить дружественных пиратов и проверить их товары.
+- Значительные улучшения в вещах, которые можно получить от дружественных работорговцев, наемников и контрабандистов. Если в базовом MV пираты могли продавать некоторые обычно недоступные вещи, то в этом дополнении их стало еще больше, а получить необходимую репутацию стало еще проще.
+
+Некоторые из крутых вещей, которые вы можете получить, включают, но не ограничиваются ими:
+- Служебные наноботы (это модуль на крейсере Гармонии)
+- Экипаж Ангелов
+- Энергоэффективную версию "Пробудитель разломов" мод. 0.5
+- Секретная технология?
+
+(если аддон установлен, кнопка "больше информации" содержит больше информации!)
+Чтобы включить Piracy is Poggers, зайдите на форумы subset и посетите страницу аддона MV! (пока что проверьте канал addon announcement, чтобы получить его)
+    </text>
+    <text name="mind_4" language="ru">14с контроля, 4 цели</text>
+    <text name="addon_hover_rad2" language="ru">R&amp;D
+В настоящее время отключен.
+Нажмите, чтобы увидеть больше информации.</text>
+    <text name="info_addon_rad" language="ru">R&amp;D
+Разработчик: Arc
+В настоящее время отключен.
+    
+Аддон, созданный на основе использования Lua для создания забавных и уникальных трюков. Он включает в себя различные корабли, оружие, экипаж, дронов и квесты, хотя и не полностью сбалансированные, все они пытаются представить и сосредоточиться на уникальных трюках, которые вы не найдете в MV в противном случае.
+Скачать его можно на форумах MV.
+    </text>    
+</FTL>
