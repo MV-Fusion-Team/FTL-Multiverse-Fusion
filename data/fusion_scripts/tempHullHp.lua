@@ -13,12 +13,12 @@ end)
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, realNewTile, beamHitType)
     if shipManager.iShipId == 0 then
         if beamHitType == 2 and hullData.tempHp > 0 and damage.iDamage > 0 then
-            hullData.tempHp = math.max(0, hullData.tempHp - damage.iDamage)
+            mods.fusion.tempHp = math.max(0, mods.fusion.tempHp - damage.iDamage)
             shipManager:DamageHull((-1 * damage.iDamage), true)
         end
     else
-        if beamHitType == 2 and hullData.enemytempHp > 0 and damage.iDamage > 0 then
-            hullData.enemytempHp = math.max(0, hullData.enemytempHp - damage.iDamage)
+        if beamHitType == 2 and mods.fusion.enemytempHp > 0 and damage.iDamage > 0 then
+            mods.fusion.enemytempHp = math.max(0, mods.fusion.enemytempHp - damage.iDamage)
             shipManager:DamageHull((-1 * damage.iDamage), true)
         end
     end
@@ -33,7 +33,7 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipMa
         end
     else
         if mods.fusion.enemytempHp > 0 and damage.iDamage > 0 then
-            mods.fusion.enemytempHp = mmath.max(0, ods.fusion.enemytempHp - damage.iDamage)
+            mods.fusion.enemytempHp = math.max(0, mods.fusion.enemytempHp - damage.iDamage)
             shipManager:DamageHull((-1 * damage.iDamage), true)
         end
     end
