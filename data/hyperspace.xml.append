@@ -101,6 +101,8 @@
 
 		<mod-append:script>data/fusion_scripts/xml/xmlDataRead.lua</mod-append:script><!--Always after all xml tags-->
 		<mod-append:script>data/fusion_scripts/autoUtil.lua</mod-append:script><!--this was in AutoLibrary-->
+
+		<mod-append:script>data/fusion_scripts/fusionIcon.lua</mod-append:script>
 	</mod:findLike>
 	
 	<mod:findLike type="events" limit="1">
