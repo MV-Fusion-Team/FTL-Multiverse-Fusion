@@ -1,0 +1,252 @@
+<FTL>
+    <!-- blueprints -->
+    <text name="fusion_aug_FAST_MIND_title">Accélérateur du Contrôle Mental</text>
+    <text name="fusion_aug_FAST_MIND_desc">Réduit le temps de recharge du système de contrôle mental de 5 secondes.</text>
+    <text name="fusion_aug_FAST_CLOAK_title">Accélérateur d'occultation</text>
+    <text name="fusion_aug_FAST_CLOAK_desc">Réduit le temps de recharge du système d'occultation de 5 secondes.</text>
+    <text name="fusion_aug_FAST_HACK_title">Accélérateur de piratage</text>
+    <text name="fusion_aug_FAST_HACK_desc">Réduit le temps de recharge du système de piratage de 5 secondes.</text>
+    <text name="fusion_aug_FAST_TEMPORAL_title">Accélérateur temporel</text>
+    <text name="fusion_aug_FAST_TEMPORAL_desc">Réduit le temps de recharge du système temporel de 5 secondes.</text>
+    <text name="fusion_aug_FAST_TELEPORT_title">Accélérateur de téléporteur</text>
+    <text name="fusion_aug_FAST_TELEPORT_desc">Réduit le temps de recharge du système de téléportation de 5 secondes.</text>
+    <text name="fusion_aug_FAST_BATTERY_title">Accélérateur de batterie</text>
+    <text name="fusion_aug_FAST_BATTERY_desc">Réduit le temps de recharge du système temporel de 5 secondes.</text>
+    <text name="fusion_aug_LONG_MIND_title">Allongement du contrôle de l'esprit</text>
+    <text name="fusion_aug_LONG_MIND_desc">Double la durée de fonctionnement du système de contrôle mental.</text>
+    <text name="fusion_aug_LONG_HACK_title">Allongement du piratage</text>
+    <text name="fusion_aug_LONG_HACK_desc">Double la durée de fonctionnement du système de piratage.</text>
+    <text name="fusion_aug_LONG_BATTERY_title">Allongement de la durée de vie de la batterie</text>
+    <text name="fusion_aug_LONG_BATTERY_desc">Double la durée de fonctionnement du système de batterie.</text>
+    <text name="fusion_aug_HACKING_DAMAGE_title">Piratage corrosif</text>
+    <text name="fusion_aug_HACKING_DAMAGE_desc">Le système de piratage fait désormais des dégâts au système.</text>
+    <text name="fusion_aug_IMMUNE_title">Immunité totale</text>
+    <text name="fusion_aug_IMMUNE_desc">Immunité à toutes les formes de dommages, d'incendies, de brèches et de sabotage. Tu ne peux pas me blesser, Jack.</text>
+    <text name="fusion_aug_IMMUNE_2_title">Véritable immunité totale</text>
+    <text name="fusion_aug_IMMUNE_2_desc">Immunité à toutes les formes de dégâts, d'incendies, de brèches et de sabotage, les incendies et les brèches ne peuvent pas être créés par des armes à feu. Tu ne peux pas me blesser, Jack.</text>
+    <text name="fusion_aug_FAST_WEAPONS_title">Armes rapides</text>
+    <text name="fusion_aug_FAST_WEAPONS_desc">Accélère le chargement des armes de 10x</text>
+    <text name="fusion_aug_FASTER_WEAPONS_title">Armes plus rapides</text>
+    <text name="fusion_aug_FASTER_WEAPONS_desc">Accélère le chargement des armes de 50x</text>
+    <text name="fusion_aug_FASTEST_WEAPONS_title">Armes les plus rapides</text>
+    <text name="fusion_aug_FASTEST_WEAPONS_desc">Accélère le chargement de l'arme de 10 000x</text>
+    <text name="fusion_aug_WEAPON_LOCKDOWN_title">Noyau de verrouillage d'arme</text>
+    <text name="fusion_aug_WEAPON_LOCKDOWN_desc">Toutes les armes autres que les faisceaux sont verrouillées.</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_title">Fréquences de phase des rayons</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_desc">Alloue à toutes les armes à rayon +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_title">Fréquences de phase de littéralement tout</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_desc">Accorde à toutes les armes +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_title">Fréquences de phase des rayons</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_desc">Accorde à tous les drones à rayon +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_title">Fréquences de phase de littéralement tout</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_desc">Accorde à tous les drones +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_RADIUS_REDUCTION_title">Réduction de la zone d'impact</text>
+    <text name="fusion_aug_RADIUS_REDUCTION_desc">Réduit la zone d'impact de l'arme de 10.</text>
+    <text name="fusion_aug_FIRE_IMMUNITY_title">Immunité au feu</text>
+    <text name="fusion_aug_FIRE_IMMUNITY_desc">Les systèmes ne subissent pas de dégâts de feu.</text>
+    <text name="fusion_aug_DEIONIZATION_BOOST_title">Amplificateur de Déionisation</text>
+    <text name="fusion_aug_DEIONIZATION_BOOST_desc">Les dégâts d'ions sont éliminés plus rapidement.</text>
+    <text name="fusion_aug_FUSION_NO_BREACH_title">Répulsif de Brèches</text>
+    <text name="fusion_aug_FUSION_NO_BREACH_desc">Réduit la probabilité de brèche causée par une attaque de 10 %</text>
+    <text name="fusion_aug_FUSION_NO_FIRE_title">Repousseur de feu</text>
+    <text name="fusion_aug_FUSION_NO_FIRE_desc">Réduit la probabilité d'incendie causée par une attaque de 10 %</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_title">Bardage anti-astéroïde</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_desc">Les astéroïdes ne font aucun dégât à votre vaisseau.</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_title">Bouclier anti-astéroïde</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_desc">Les astéroïdes ne font pas sauter les boucliers.</text>
+
+    <!-- events -->
+    <text name="do_something">Faire quelque chose à bord du vaisseau.</text>
+    <text name="nevermind">Laisser tomber.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_text">Choisissez ce que vous souhaitez faire à bord du vaisseau en hypervitesse, plusieurs options s'offrent à vous.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c1_text">Utiliser une augmentation de vitesse.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c2_text">Vous avez déjà utilisé une augmentation de vitesse de saut.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c3_text">Voir les tâches disponibles de C.U.R.A.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c4_text">Vous avez déjà accepté une tâche de C.U.R.A.</text>
+    <text name="event_ATLAS_MENU_NOEQUIPMENT_c_append_text">Vous vous rendez dans la capitale de la Fédération.</text>
+    <text name="event_ADDON_FUSION_INFO_c2_text">Activer l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c3_text">Désactiver l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c4_text">Activer l'activation inversée de l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c5_text">Désactiver l'activation inversée de l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c6_text">Afficher les boutons d'information sur les addons</text>
+    <text name="event_ADDON_FUSION_INFO_c7_text">Cacher les boutons d'information des addons</text>
+    <text name="event_ADDON_FORGEMASTER_INFO_c2_text">Vérifier les recettes d'artisanat</text>
+    <text name="event_ADDON_PIP_INFO_c2_text">plus d'infos...</text>
+    <text name="event_FUSION_RESET_text">Les fonctions de fusion ONJUMP, ONDAMAGE ont été réinitialisées.</text>
+    <text name="event_FUSION_DEACTIVATE_text">Fusion ONJUMP, ONDAMAGE désactivé, la mise à jour devrait être sûre maintenant.</text>
+
+    <!-- misc -->
+    <text name="addon_hover_fusion">FUSION
+    Actuellement activé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_fusion">FUSION
+    Développé par : Kommandant_Julk, Chrono Vortex, Arc, Pepson, Choosechee
+    Actuellement activé.
+
+
+    Cet addon contient des fonctionnalités de qualité de vie (QoL), des balises XML personnalisées et des fonctions utilitaires Lua. Il est conçu pour remplir le rôle de dépendance précédemment attribué à Inferno-Core.
+    </text>
+
+
+    <text name="addon_hover_forgemaster">FORGEMASTER
+    Actuellement désactivé.
+    Cliquez pour plus d'informations.</text>
+    </text name="info_addon_forgemaster">FORGEMASTER
+    Développé par : Cyrus106, Abstrusity, Maxine, Radish, SeaDragonet, Kommandant_Julk, Vertaalfout, DemonFusionGamer et Skye
+    Actuellement désactivé.
+
+
+    Une extension majeure pour Multiverse ! Elle ajoute de nouveaux PNJs, quêtes, armes, secteurs, boss, et bien plus. Les drones et améliorations arrivent bientôt ! La principale nouveauté est le système d’artisanat d’armes, qui permet de combiner diverses armes pour obtenir des variantes plus puissantes (ou du moins des alternatives intéressantes). Ces armes sont particulièrement adaptées aux vaisseaux disposant de peu d’emplacements d’armes et exploitent les fonctionnalités les plus avancées d’Hyperspace pour une expérience unique !
+    De nouvelles infobulles apparaîtront sur les composants d'armes pouvant être utilisés pour l'artisanat !
+    (l'addon pour lequel Fusion a été conçu)
+
+
+    Pour activer Forgemaster, rendez-vous sur les forums Multiverse !
+    </text>
+
+
+    <text name="addon_hover_gb">GO-BALLISTIC-2
+    Actuellement périmé.
+    Cliquez pour voir plus d'informations.</text>
+    </text name="info_addon_gb">GO-BALLISTIC-2
+    Développé par : R4V3-0N, porcu93, cgjunior, laszlogasd, Madoktor, RobintheDragon2, Kommandant_Julk et anciennement par ChronoVortex
+    Actuellement désactivé.
+
+
+    Ce mod ajoute 16 nouvelles armes balistiques et 1 nouveau drone modulable sur le thème de l'armement balistique obsolète de la Fédération lors de sa fondation pendant la guerre Fédération-Mantis.
+    Cette version est conçue pour être utilisée avec Multiverse 5.3.1. Ce mod est un redéveloppement et une mise à jour du mod original GO BALLISTIC ! réalisé par R4V3-0N avec l'aide de ChronoVortex. Il propose de nouvelles illustrations, de nouveaux effets sonores et un rééquilibrage complet des armes et des drones de l'original.
+    Cette relecture modernise le rôle de ces armes en exploitant les nouvelles fonctionnalités d'Hyperspace, qui n'étaient pas disponibles lors du développement initial, grâce au travail d'une petite équipe d'amis.
+
+
+    Pour activer Go Ballistic 2, rendez-vous sur les forums Multiverse !
+    </text>
+    <text name="addon_hover_tcc">TRASH COMPACTOR COLLABORATION
+    Périmé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_tcc">TRASH COMPACTOR COLLABORATION
+    Développé par Zuggo, Dalvest, Enchanter, Cryntolov, Ashley, NitronEXE, LandGreen, Choosechee, ConMan, Kommandant_Julk
+    Actuellement désactivé.
+
+
+    Extension majeure pour Multiverse, incluant de chouettes choses telles qu'une toute nouvelle race de Lanius améliorables, une toute nouvelle page de vaisseaux et une poignée d'armes.
+
+
+    Inclut maintenant plusieurs autres mods tels que Bomb Flaks et Instant Flair.
+
+
+    Incompatible avec les versions de mv supérieures à 5.3.1, désolé.
+    </text>
+    <text name="addon_hover_fr">Forgotten Races
+    Actuellement désactivé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_fr">Forgotten Races
+    Développé par Gabriel Cooper et HereticChurch
+    Actuellement désactivé.
+
+
+    Cet addon ajoute du contenu à la troisième race Obelisk éteinte : le Commonwealth.Actuellement, dans Multiverse de base, ils sont considérés comme une espèce disparue depuis longtemps, leurs seules traces étant le croiseur Ancient C et le corps en ruine d'un Obelisk du Commonwealth visible sur le Sylvan A.
+
+
+    Le contenu ajouté pour cette race comprend : Une version Commonwealth de presque tout le contenu de Obélisque, y compris des drones, des armes et même un Cognitif. L'addon inclut également un vaisseau Commonwealth remanié que vous pouvez débloquer. Ce vaisseau possède une amélioration exclusive qui vous permet de fabriquer du contenu Commonwealth.
+
+
+    Cet addon, cependant, inclut beaucoup plus que des cubes bleus, il ajoute un type d'équipage Lanius bleu et un vaisseau qui reflète les Augmentés et la reine Augmenté, mais en bleu pour symboliser leur consommation de matériaux du Commonwealth.
+
+
+    Les autres contenus incluent également : une toute nouvelle race de diamants métalliques avec des équivalents Lanius et cognitifs pour leur équipements, ainsi que des armes et des vaisseaux spécifiques (il y a 3 types de diamants métalliques au total, chacun ayant ses propres forces et faiblesses). L'addon ajoute également le Tester, un vaisseau qui existe dans les fichiers mais qui n'a jamais été ajouté officiellement, avec en prime ses configurations B et C, ainsi que la ligne de vaisseaux amiraux de la Légion.
+
+
+    Attention, l'équilibre de l'addon est assez instable et peut ne pas être du goût de tout le monde, bien que le développeur tente de maintenir une certaine cohérence interne, l'approche adoptée diffère de celle du MV de base.
+
+
+    tl;dr : plus de cubes et de Lanius aromatisés aux cubes, l'équilibre n'est pas parfait, la vérification des fautes de frappe n'est pas garantie.
+
+
+    Pour activer Forgotten Races, rendez-vous sur les forums Multiverse !
+    </text>
+    <text name="addon_hover_bag">BAG OF DUMB
+    Actuellement obsolète.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_bag">BAG OF DUMB
+    Développé par Felipemello29, cgjunior, geckoindisguise, Enchanter, moreorlesser, AgentTHeKat, Laythe, MaddieDoktor, DemonFusionGamer, R4V3-0N, Vertaalfout et Kommandant_Julk
+    Actuellement désactivé.
+
+
+    "Ceci existe sans votre consentement"
+    Mentions supplémentaires pas tout à fait-dev : Kix, Cyrus106, l'équipe de développement de Forgemaster, Admiral Billy
+    Testeurs : Skye, Digger4Money
+
+
+    Pour activer Bag of Dumb, rendez-vous sur les forums Multiverse !
+    </text>
+    <text name="addon_hover_aa">ALDER'S ADDITIONS
+    Actuellement désactivé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_aa">Alder's Additions : First Strike
+    Développé par : Alder, Vertaalfout, Chrono Vortex
+    Actuellement désactivé.
+
+
+    Un pack d'extension qui contient de nombreuses armes inhabituelles, et qui sert de base pour les futurs segments des Alder's Additions à venir. Ce mod étant en bêta ouverte, il peut contenir des variations d'équilibre extrêmes ; jouez à vos risques et périls !
+
+
+    Pour activer Alder's Additions, demandez-le à Alder.
+    </text>
+    <text name="addon_hover_cnc">C&amp;C WEAPONS
+    Actuellement désactivé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_cnc">C&amp;C WEAPONS : RENEGADE EDITION
+    Développé par : Chrono Vortex
+    Crédit supplémentaire : Vertaalfout, R4V3-0N
+    Actuellement désactivé.
+
+
+    Ajoute plus d'une douzaine de nouvelles armes et quelques autres surprises basées sur la franchise Command and Conquer.
+
+
+    Pour activer C&amp;C Weapons, rendez-vous sur les forums Subset et visitez la page de l'addon MV !
+    </text>
+    <text name="addon_hover_pip">PIRACY IS POGGERS
+    Actuellement désactivé.
+    Cliquez pour voir plus d'informations.</text>
+    <text name="info_addon_pip">PIRACY IS POGGERS
+    Développé par TerryIsOP
+    Remerciements à Chrono Vortex et Julk pour leur aide tout au long du processus de codage.
+    Actuellement désactivé.
+
+
+    Cet add-on développe le système de réputation des pirates présent dans le Multiverse de base. Les caractéristiques sont les suivantes :
+    - De nombreux événements de la base MV permettent désormais de gagner/perdre de la réputation.
+    - Augmentation des chances de rencontrer des pirates amicaux pour vérifier leurs marchandises.
+    - Amélioration considérable de la marchandise que vous pouvez obtenir auprès d'esclavagistes, de mercenaires et de contrebandiers amicaux. Alors que la base MV permettait à ces pirates de vendre des choses normalement inaccessibles, cet add-on leur offre encore plus de choses normalement inaccessibles et il est maintenant plus facile d'obtenir la réputation requise.
+
+
+    Certains des trucs cool que vous pouvez obtenir incluent, mais ne sont pas limités à :
+    - Dispersion de Bots Utilitaires (qui augmente l'OP sur le Cruiseur de l'Harmonie)
+    - Membre d'équipage Ange
+    - Éventre-Espace 0.5 Version Écoénergétique
+    - Technologie secrète ?
+
+
+    (si l'addon est installé, le bouton "plus d'infos" contient plus d'informations !)
+    Pour activer Piracy is Poggers, allez sur les forums Subset et visitez la page de l'addon MV ! (pour l'instant, consultez le canal de soumission et d'annonce des addons pour l'obtenir)
+    </text>
+    <text name="mind_4">14s de contrôle, 4 cibles</text>
+    <text name="addon_hover_rad2">R&amp;D
+    Actuellement désactivé.
+    Cliquez pour plus d'informations.</text>
+    <text name="info_addon_rad">R&amp;D
+    Développé par : Arc
+    Actuellement désactivé.
+
+
+    Un addon conçu autour de l'utilisation de Lua pour créer des mécaniques amusantes et uniques, cela inclut une variété de vaisseaux, d'armes, d'équipages, de drones et de quêtes, bien qu'ils ne soient pas entièrement équilibrés, ils essaient tous d'introduire et de se concentrer sur une mécanique unique que vous ne trouveriez pas dans MV autrement.
+    Vous pouvez le télécharger sur les forums MV.
+    </text>
+
+    <!-- tooltips -->
+    <text name="inactiveTooltip_unavailable">Inaccessible!</text>
+    <text name="inactiveTooltip_unavailable_in_danger">Inaccessible : Vous ne pouvez pas faire ceci lorsque vous Ãªtes en danger !</text>
+    <text name="tooltip_toggle_drone_weapon">Toggle un drone ou une arme.</text>
+    <text name="tooltip_open_storage_nemu">Ouvrir le menu de stockage.</text>
+</FTL>
