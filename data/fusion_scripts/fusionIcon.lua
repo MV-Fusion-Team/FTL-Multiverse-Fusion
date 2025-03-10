@@ -7,7 +7,7 @@ mods.icons["FUSION"] = {
 	imageHover = Hyperspace.Resources:CreateImagePrimitiveString("addons/fusion_select2.png", 0, 0, 0, Graphics.GL_Color(1, 1, 1, 1), 1.0, false),
 	event = "ADDON_FUSION_INFO",
 	hover = false,
-	hoverText = "FUSION\nCurrently Enabled.\nClick to see more info."
+	hoverText = Hyperspace.Text:GetText("ADDON_FUSION_INFO_hover_text")
 }
 
 if not mods.iconsUninstalled then

@@ -17,4 +17,6 @@
     <text name="event_ADDON_PIP_INFO_c2_text">more info...</text>
     <text name="event_FUSION_RESET_text">Fusion ONJUMP, ONDAMAGE functions have been reset.</text>
     <text name="event_FUSION_DEACTIVATE_text">Fusion ONJUMP, ONDAMAGE disabled, updating should be safe now.</text>
+		<!--Lua-->
+	<text name="ADDON_FUSION_INFO_hover_text">FUSION\nCurrently Enabled.\nClick to see more info.</text>
 </FTL>
