@@ -1,85 +1,85 @@
 <FTL>
     <!-- blueprints -->
-    <text name="fusion_aug_FAST_MIND_title">Accélérateur du Contrôle Mental</text>
-    <text name="fusion_aug_FAST_MIND_desc">Réduit le temps de recharge du système de contrôle mental de 5 secondes.</text>
-    <text name="fusion_aug_FAST_CLOAK_title">Accélérateur d'occultation</text>
-    <text name="fusion_aug_FAST_CLOAK_desc">Réduit le temps de recharge du système d'occultation de 5 secondes.</text>
-    <text name="fusion_aug_FAST_HACK_title">Accélérateur de piratage</text>
-    <text name="fusion_aug_FAST_HACK_desc">Réduit le temps de recharge du système de piratage de 5 secondes.</text>
-    <text name="fusion_aug_FAST_TEMPORAL_title">Accélérateur temporel</text>
-    <text name="fusion_aug_FAST_TEMPORAL_desc">Réduit le temps de recharge du système temporel de 5 secondes.</text>
-    <text name="fusion_aug_FAST_TELEPORT_title">Accélérateur de téléporteur</text>
-    <text name="fusion_aug_FAST_TELEPORT_desc">Réduit le temps de recharge du système de téléportation de 5 secondes.</text>
-    <text name="fusion_aug_FAST_BATTERY_title">Accélérateur de batterie</text>
-    <text name="fusion_aug_FAST_BATTERY_desc">Réduit le temps de recharge du système temporel de 5 secondes.</text>
-    <text name="fusion_aug_LONG_MIND_title">Allongement du contrôle de l'esprit</text>
-    <text name="fusion_aug_LONG_MIND_desc">Double la durée de fonctionnement du système de contrôle mental.</text>
-    <text name="fusion_aug_LONG_HACK_title">Allongement du piratage</text>
-    <text name="fusion_aug_LONG_HACK_desc">Double la durée de fonctionnement du système de piratage.</text>
-    <text name="fusion_aug_LONG_BATTERY_title">Allongement de la durée de vie de la batterie</text>
-    <text name="fusion_aug_LONG_BATTERY_desc">Double la durée de fonctionnement du système de batterie.</text>
-    <text name="fusion_aug_HACKING_DAMAGE_title">Piratage corrosif</text>
-    <text name="fusion_aug_HACKING_DAMAGE_desc">Le système de piratage fait désormais des dégâts au système.</text>
-    <text name="fusion_aug_IMMUNE_title">Immunité totale</text>
-    <text name="fusion_aug_IMMUNE_desc">Immunité à toutes les formes de dommages, d'incendies, de brèches et de sabotage. Tu ne peux pas me blesser, Jack.</text>
-    <text name="fusion_aug_IMMUNE_2_title">Véritable immunité totale</text>
-    <text name="fusion_aug_IMMUNE_2_desc">Immunité à toutes les formes de dégâts, d'incendies, de brèches et de sabotage, les incendies et les brèches ne peuvent pas être créés par des armes à feu. Tu ne peux pas me blesser, Jack.</text>
-    <text name="fusion_aug_FAST_WEAPONS_title">Armes rapides</text>
-    <text name="fusion_aug_FAST_WEAPONS_desc">Accélère le chargement des armes de 10x</text>
-    <text name="fusion_aug_FASTER_WEAPONS_title">Armes plus rapides</text>
-    <text name="fusion_aug_FASTER_WEAPONS_desc">Accélère le chargement des armes de 50x</text>
-    <text name="fusion_aug_FASTEST_WEAPONS_title">Armes les plus rapides</text>
-    <text name="fusion_aug_FASTEST_WEAPONS_desc">Accélère le chargement de l'arme de 10 000x</text>
-    <text name="fusion_aug_WEAPON_LOCKDOWN_title">Noyau de verrouillage d'arme</text>
-    <text name="fusion_aug_WEAPON_LOCKDOWN_desc">Toutes les armes autres que les faisceaux sont verrouillées.</text>
-    <text name="fusion_aug_AUG_BEAM_PIERCE_title">Fréquences de phase des rayons</text>
-    <text name="fusion_aug_AUG_BEAM_PIERCE_desc">Alloue à toutes les armes à rayon +1 de perforation de bouclier.</text>
-    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_title">Fréquences de phase de littéralement tout</text>
-    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_desc">Accorde à toutes les armes +1 de perforation de bouclier.</text>
-    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_title">Fréquences de phase des rayons</text>
-    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_desc">Accorde à tous les drones à rayon +1 de perforation de bouclier.</text>
-    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_title">Fréquences de phase de littéralement tout</text>
-    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_desc">Accorde à tous les drones +1 de perforation de bouclier.</text>
-    <text name="fusion_aug_RADIUS_REDUCTION_title">Réduction de la zone d'impact</text>
-    <text name="fusion_aug_RADIUS_REDUCTION_desc">Réduit la zone d'impact de l'arme de 10.</text>
-    <text name="fusion_aug_FIRE_IMMUNITY_title">Immunité au feu</text>
-    <text name="fusion_aug_FIRE_IMMUNITY_desc">Les systèmes ne subissent pas de dégâts de feu.</text>
-    <text name="fusion_aug_DEIONIZATION_BOOST_title">Amplificateur de Déionisation</text>
-    <text name="fusion_aug_DEIONIZATION_BOOST_desc">Les dégâts d'ions sont éliminés plus rapidement.</text>
-    <text name="fusion_aug_FUSION_NO_BREACH_title">Répulsif de Brèches</text>
-    <text name="fusion_aug_FUSION_NO_BREACH_desc">Réduit la probabilité de brèche causée par une attaque de 10 %</text>
-    <text name="fusion_aug_FUSION_NO_FIRE_title">Repousseur de feu</text>
-    <text name="fusion_aug_FUSION_NO_FIRE_desc">Réduit la probabilité d'incendie causée par une attaque de 10 %</text>
-    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_title">Bardage anti-astéroïde</text>
-    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_desc">Les astéroïdes ne font aucun dégât à votre vaisseau.</text>
-    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_title">Bouclier anti-astéroïde</text>
-    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_desc">Les astéroïdes ne font pas sauter les boucliers.</text>
+    <text name="fusion_aug_FAST_MIND_title" language="fr">Accélérateur du Contrôle Mental</text>
+    <text name="fusion_aug_FAST_MIND_desc" language="fr">Réduit le temps de recharge du système de contrôle mental de 5 secondes.</text>
+    <text name="fusion_aug_FAST_CLOAK_title" language="fr">Accélérateur d'occultation</text>
+    <text name="fusion_aug_FAST_CLOAK_desc" language="fr">Réduit le temps de recharge du système d'occultation de 5 secondes.</text>
+    <text name="fusion_aug_FAST_HACK_title" language="fr">Accélérateur de piratage</text>
+    <text name="fusion_aug_FAST_HACK_desc" language="fr">Réduit le temps de recharge du système de piratage de 5 secondes.</text>
+    <text name="fusion_aug_FAST_TEMPORAL_title" language="fr">Accélérateur temporel</text>
+    <text name="fusion_aug_FAST_TEMPORAL_desc" language="fr">Réduit le temps de recharge du système temporel de 5 secondes.</text>
+    <text name="fusion_aug_FAST_TELEPORT_title" language="fr">Accélérateur de téléporteur</text>
+    <text name="fusion_aug_FAST_TELEPORT_desc" language="fr">Réduit le temps de recharge du système de téléportation de 5 secondes.</text>
+    <text name="fusion_aug_FAST_BATTERY_title" language="fr">Accélérateur de batterie</text>
+    <text name="fusion_aug_FAST_BATTERY_desc" language="fr">Réduit le temps de recharge du système temporel de 5 secondes.</text>
+    <text name="fusion_aug_LONG_MIND_title" language="fr">Allongement du contrôle de l'esprit</text>
+    <text name="fusion_aug_LONG_MIND_desc" language="fr">Double la durée de fonctionnement du système de contrôle mental.</text>
+    <text name="fusion_aug_LONG_HACK_title" language="fr">Allongement du piratage</text>
+    <text name="fusion_aug_LONG_HACK_desc" language="fr">Double la durée de fonctionnement du système de piratage.</text>
+    <text name="fusion_aug_LONG_BATTERY_title" language="fr">Allongement de la durée de vie de la batterie</text>
+    <text name="fusion_aug_LONG_BATTERY_desc" language="fr">Double la durée de fonctionnement du système de batterie.</text>
+    <text name="fusion_aug_HACKING_DAMAGE_title" language="fr">Piratage corrosif</text>
+    <text name="fusion_aug_HACKING_DAMAGE_desc" language="fr">Le système de piratage fait désormais des dégâts au système.</text>
+    <text name="fusion_aug_IMMUNE_title" language="fr">Immunité totale</text>
+    <text name="fusion_aug_IMMUNE_desc" language="fr">Immunité à toutes les formes de dommages, d'incendies, de brèches et de sabotage. Tu ne peux pas me blesser, Jack.</text>
+    <text name="fusion_aug_IMMUNE_2_title" language="fr">Véritable immunité totale</text>
+    <text name="fusion_aug_IMMUNE_2_desc" language="fr">Immunité à toutes les formes de dégâts, d'incendies, de brèches et de sabotage, les incendies et les brèches ne peuvent pas être créés par des armes à feu. Tu ne peux pas me blesser, Jack.</text>
+    <text name="fusion_aug_FAST_WEAPONS_title" language="fr">Armes rapides</text>
+    <text name="fusion_aug_FAST_WEAPONS_desc" language="fr">Accélère le chargement des armes de 10x</text>
+    <text name="fusion_aug_FASTER_WEAPONS_title" language="fr">Armes plus rapides</text>
+    <text name="fusion_aug_FASTER_WEAPONS_desc" language="fr">Accélère le chargement des armes de 50x</text>
+    <text name="fusion_aug_FASTEST_WEAPONS_title" language="fr">Armes les plus rapides</text>
+    <text name="fusion_aug_FASTEST_WEAPONS_desc" language="fr">Accélère le chargement de l'arme de 10 000x</text>
+    <text name="fusion_aug_WEAPON_LOCKDOWN_title" language="fr">Noyau de verrouillage d'arme</text>
+    <text name="fusion_aug_WEAPON_LOCKDOWN_desc" language="fr">Toutes les armes autres que les faisceaux sont verrouillées.</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_title" language="fr">Fréquences de phase des rayons</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_desc" language="fr">Alloue à toutes les armes à rayon +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_title" language="fr">Fréquences de phase de littéralement tout</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_desc" language="fr">Accorde à toutes les armes +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_title" language="fr">Fréquences de phase des rayons</text>
+    <text name="fusion_aug_AUG_BEAM_PIERCE_DRONE_desc" language="fr">Accorde à tous les drones à rayon +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_title" language="fr">Fréquences de phase de littéralement tout</text>
+    <text name="fusion_aug_AUG_EVERYTHING_PIERCE_DRONE_desc" language="fr">Accorde à tous les drones +1 de perforation de bouclier.</text>
+    <text name="fusion_aug_RADIUS_REDUCTION_title" language="fr">Réduction de la zone d'impact</text>
+    <text name="fusion_aug_RADIUS_REDUCTION_desc" language="fr">Réduit la zone d'impact de l'arme de 10.</text>
+    <text name="fusion_aug_FIRE_IMMUNITY_title" language="fr">Immunité au feu</text>
+    <text name="fusion_aug_FIRE_IMMUNITY_desc" language="fr">Les systèmes ne subissent pas de dégâts de feu.</text>
+    <text name="fusion_aug_DEIONIZATION_BOOST_title" language="fr">Amplificateur de Déionisation</text>
+    <text name="fusion_aug_DEIONIZATION_BOOST_desc" language="fr">Les dégâts d'ions sont éliminés plus rapidement.</text>
+    <text name="fusion_aug_FUSION_NO_BREACH_title" language="fr">Répulsif de Brèches</text>
+    <text name="fusion_aug_FUSION_NO_BREACH_desc" language="fr">Réduit la probabilité de brèche causée par une attaque de 10 %</text>
+    <text name="fusion_aug_FUSION_NO_FIRE_title" language="fr">Repousseur de feu</text>
+    <text name="fusion_aug_FUSION_NO_FIRE_desc" language="fr">Réduit la probabilité d'incendie causée par une attaque de 10 %</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_title" language="fr">Bardage anti-astéroïde</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_HULL_desc" language="fr">Les astéroïdes ne font aucun dégât à votre vaisseau.</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_title" language="fr">Bouclier anti-astéroïde</text>
+    <text name="fusion_aug_FUSION_ASTEROID_RESIST_SHIELD_desc" language="fr">Les astéroïdes ne font pas sauter les boucliers.</text>
 
     <!-- events -->
-    <text name="do_something">Faire quelque chose à bord du vaisseau.</text>
-    <text name="nevermind">Laisser tomber.</text>
-    <text name="event_FUSION_ATLAS_EQUIPMENT_text">Choisissez ce que vous souhaitez faire à bord du vaisseau en hypervitesse, plusieurs options s'offrent à vous.</text>
-    <text name="event_FUSION_ATLAS_EQUIPMENT_c1_text">Utiliser une augmentation de vitesse.</text>
-    <text name="event_FUSION_ATLAS_EQUIPMENT_c2_text">Vous avez déjà utilisé une augmentation de vitesse de saut.</text>
-    <text name="event_FUSION_ATLAS_EQUIPMENT_c3_text">Voir les tâches disponibles de C.U.R.A.</text>
-    <text name="event_FUSION_ATLAS_EQUIPMENT_c4_text">Vous avez déjà accepté une tâche de C.U.R.A.</text>
-    <text name="event_ATLAS_MENU_NOEQUIPMENT_c_append_text">Vous vous rendez dans la capitale de la Fédération.</text>
-    <text name="event_ADDON_FUSION_INFO_c2_text">Activer l'écran des stats d'Augmentations</text>
-    <text name="event_ADDON_FUSION_INFO_c3_text">Désactiver l'écran des stats d'Augmentations</text>
-    <text name="event_ADDON_FUSION_INFO_c4_text">Activer l'activation inversée de l'écran des stats d'Augmentations</text>
-    <text name="event_ADDON_FUSION_INFO_c5_text">Désactiver l'activation inversée de l'écran des stats d'Augmentations</text>
-    <text name="event_ADDON_FUSION_INFO_c6_text">Afficher les boutons d'information sur les addons</text>
-    <text name="event_ADDON_FUSION_INFO_c7_text">Cacher les boutons d'information des addons</text>
-    <text name="event_ADDON_FORGEMASTER_INFO_c2_text">Vérifier les recettes d'artisanat</text>
-    <text name="event_ADDON_PIP_INFO_c2_text">plus d'infos...</text>
-    <text name="event_FUSION_RESET_text">Les fonctions de fusion ONJUMP, ONDAMAGE ont été réinitialisées.</text>
-    <text name="event_FUSION_DEACTIVATE_text">Fusion ONJUMP, ONDAMAGE désactivé, la mise à jour devrait être sûre maintenant.</text>
+    <text name="do_something" language="fr">Faire quelque chose à bord du vaisseau.</text>
+    <text name="nevermind" language="fr">Laisser tomber.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_text" language="fr">Choisissez ce que vous souhaitez faire à bord du vaisseau en hypervitesse, plusieurs options s'offrent à vous.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c1_text" language="fr">Utiliser une augmentation de vitesse.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c2_text" language="fr">Vous avez déjà utilisé une augmentation de vitesse de saut.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c3_text" language="fr">Voir les tâches disponibles de C.U.R.A.</text>
+    <text name="event_FUSION_ATLAS_EQUIPMENT_c4_text" language="fr">Vous avez déjà accepté une tâche de C.U.R.A.</text>
+    <text name="event_ATLAS_MENU_NOEQUIPMENT_c_append_text" language="fr">Vous vous rendez dans la capitale de la Fédération.</text>
+    <text name="event_ADDON_FUSION_INFO_c2_text" language="fr">Activer l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c3_text" language="fr">Désactiver l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c4_text" language="fr">Activer l'activation inversée de l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c5_text" language="fr">Désactiver l'activation inversée de l'écran des stats d'Augmentations</text>
+    <text name="event_ADDON_FUSION_INFO_c6_text" language="fr">Afficher les boutons d'information sur les addons</text>
+    <text name="event_ADDON_FUSION_INFO_c7_text" language="fr">Cacher les boutons d'information des addons</text>
+    <text name="event_ADDON_FORGEMASTER_INFO_c2_text" language="fr">Vérifier les recettes d'artisanat</text>
+    <text name="event_ADDON_PIP_INFO_c2_text" language="fr">plus d'infos...</text>
+    <text name="event_FUSION_RESET_text" language="fr">Les fonctions de fusion ONJUMP, ONDAMAGE ont été réinitialisées.</text>
+    <text name="event_FUSION_DEACTIVATE_text" language="fr">Fusion ONJUMP, ONDAMAGE désactivé, la mise à jour devrait être sûre maintenant.</text>
 
     <!-- misc -->
-    <text name="addon_hover_fusion">FUSION
+    <text name="addon_hover_fusion" language="fr">FUSION
     Actuellement activé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_fusion">FUSION
+    <text name="info_addon_fusion" language="fr">FUSION
     Développé par : Kommandant_Julk, Chrono Vortex, Arc, Pepson, Choosechee
     Actuellement activé.
 
@@ -88,10 +88,10 @@
     </text>
 
 
-    <text name="addon_hover_forgemaster">FORGEMASTER
+    <text name="addon_hover_forgemaster" language="fr">FORGEMASTER
     Actuellement désactivé.
     Cliquez pour plus d'informations.</text>
-    </text name="info_addon_forgemaster">FORGEMASTER
+    <text name="info_addon_forgemaster" language="fr">FORGEMASTER
     Développé par : Cyrus106, Abstrusity, Maxine, Radish, SeaDragonet, Kommandant_Julk, Vertaalfout, DemonFusionGamer et Skye
     Actuellement désactivé.
 
@@ -105,10 +105,10 @@
     </text>
 
 
-    <text name="addon_hover_gb">GO-BALLISTIC-2
+    <text name="addon_hover_gb" language="fr">GO-BALLISTIC-2
     Actuellement périmé.
     Cliquez pour voir plus d'informations.</text>
-    </text name="info_addon_gb">GO-BALLISTIC-2
+    <text name="info_addon_gb" language="fr">GO-BALLISTIC-2
     Développé par : R4V3-0N, porcu93, cgjunior, laszlogasd, Madoktor, RobintheDragon2, Kommandant_Julk et anciennement par ChronoVortex
     Actuellement désactivé.
 
@@ -120,10 +120,10 @@
 
     Pour activer Go Ballistic 2, rendez-vous sur les forums Multiverse !
     </text>
-    <text name="addon_hover_tcc">TRASH COMPACTOR COLLABORATION
+    <text name="addon_hover_tcc" language="fr">TRASH COMPACTOR COLLABORATION
     Périmé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_tcc">TRASH COMPACTOR COLLABORATION
+    <text name="info_addon_tcc" language="fr">TRASH COMPACTOR COLLABORATION
     Développé par Zuggo, Dalvest, Enchanter, Cryntolov, Ashley, NitronEXE, LandGreen, Choosechee, ConMan, Kommandant_Julk
     Actuellement désactivé.
 
@@ -136,10 +136,10 @@
 
     Incompatible avec les versions de mv supérieures à 5.3.1, désolé.
     </text>
-    <text name="addon_hover_fr">Forgotten Races
+    <text name="addon_hover_fr" language="fr">Forgotten Races
     Actuellement désactivé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_fr">Forgotten Races
+    <text name="info_addon_fr" language="fr">Forgotten Races
     Développé par Gabriel Cooper et HereticChurch
     Actuellement désactivé.
 
@@ -164,10 +164,10 @@
 
     Pour activer Forgotten Races, rendez-vous sur les forums Multiverse !
     </text>
-    <text name="addon_hover_bag">BAG OF DUMB
+    <text name="addon_hover_bag" language="fr">BAG OF DUMB
     Actuellement obsolète.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_bag">BAG OF DUMB
+    <text name="info_addon_bag" language="fr">BAG OF DUMB
     Développé par Felipemello29, cgjunior, geckoindisguise, Enchanter, moreorlesser, AgentTHeKat, Laythe, MaddieDoktor, DemonFusionGamer, R4V3-0N, Vertaalfout et Kommandant_Julk
     Actuellement désactivé.
 
@@ -179,10 +179,10 @@
 
     Pour activer Bag of Dumb, rendez-vous sur les forums Multiverse !
     </text>
-    <text name="addon_hover_aa">ALDER'S ADDITIONS
+    <text name="addon_hover_aa" language="fr">ALDER'S ADDITIONS
     Actuellement désactivé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_aa">Alder's Additions : First Strike
+    <text name="info_addon_aa" language="fr">Alder's Additions : First Strike
     Développé par : Alder, Vertaalfout, Chrono Vortex
     Actuellement désactivé.
 
@@ -192,10 +192,10 @@
 
     Pour activer Alder's Additions, demandez-le à Alder.
     </text>
-    <text name="addon_hover_cnc">C&amp;C WEAPONS
+    <text name="addon_hover_cnc" language="fr">C&amp;C WEAPONS
     Actuellement désactivé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_cnc">C&amp;C WEAPONS : RENEGADE EDITION
+    <text name="info_addon_cnc" language="fr">C&amp;C WEAPONS : RENEGADE EDITION
     Développé par : Chrono Vortex
     Crédit supplémentaire : Vertaalfout, R4V3-0N
     Actuellement désactivé.
@@ -206,10 +206,10 @@
 
     Pour activer C&amp;C Weapons, rendez-vous sur les forums Subset et visitez la page de l'addon MV !
     </text>
-    <text name="addon_hover_pip">PIRACY IS POGGERS
+    <text name="addon_hover_pip" language="fr">PIRACY IS POGGERS
     Actuellement désactivé.
     Cliquez pour voir plus d'informations.</text>
-    <text name="info_addon_pip">PIRACY IS POGGERS
+    <text name="info_addon_pip" language="fr">PIRACY IS POGGERS
     Développé par TerryIsOP
     Remerciements à Chrono Vortex et Julk pour leur aide tout au long du processus de codage.
     Actuellement désactivé.
@@ -231,11 +231,11 @@
     (si l'addon est installé, le bouton "plus d'infos" contient plus d'informations !)
     Pour activer Piracy is Poggers, allez sur les forums Subset et visitez la page de l'addon MV ! (pour l'instant, consultez le canal de soumission et d'annonce des addons pour l'obtenir)
     </text>
-    <text name="mind_4">14s de contrôle, 4 cibles</text>
-    <text name="addon_hover_rad2">R&amp;D
+    <text name="mind_4" language="fr">14s de contrôle, 4 cibles</text>
+    <text name="addon_hover_rad2" language="fr">R&amp;D
     Actuellement désactivé.
     Cliquez pour plus d'informations.</text>
-    <text name="info_addon_rad">R&amp;D
+    <text name="info_addon_rad" language="fr">R&amp;D
     Développé par : Arc
     Actuellement désactivé.
 
@@ -245,8 +245,10 @@
     </text>
 
     <!-- tooltips -->
-    <text name="inactiveTooltip_unavailable">Inaccessible!</text>
-    <text name="inactiveTooltip_unavailable_in_danger">Inaccessible : Vous ne pouvez pas faire ceci lorsque vous Ãªtes en danger !</text>
-    <text name="tooltip_toggle_drone_weapon">Toggle un drone ou une arme.</text>
-    <text name="tooltip_open_storage_nemu">Ouvrir le menu de stockage.</text>
+    <text name="inactiveTooltip_unavailable" language="fr">Inaccessible!</text>
+    <text name="inactiveTooltip_unavailable_in_danger" language="fr">Inaccessible : Vous ne pouvez pas faire ceci lorsque vous Ãªtes en danger !</text>
+    <text name="tooltip_toggle_drone_weapon" language="fr">Toggle un drone ou une arme.</text>
+    <text name="tooltip_open_storage_nemu" language="fr">Ouvrir le menu de stockage.</text>
+	<!--Lua-->
+	<text name="ADDON_FUSION_INFO_hover_text" language="fr">FUSION\nActuellement activé.\nCliquez pour voir plus d'informations.</text>
 </FTL>
