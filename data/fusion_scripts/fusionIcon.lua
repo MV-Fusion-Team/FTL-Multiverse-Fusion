@@ -2,12 +2,16 @@ if not mods.icons then
 	mods.icons = {}
 end
 
+local icon_fusion_hoverText = Hyperspace.TextString()
+icon_fusion_hoverText.data = "ADDON_FUSION_INFO_hover_text"
+icon_fusion_hoverText.isLiteral = false
+
 mods.icons["FUSION"] = {
 	image = Hyperspace.Resources:CreateImagePrimitiveString("addons/fusion_on.png", 0, 0, 0, Graphics.GL_Color(1, 1, 1, 1), 1.0, false),
 	imageHover = Hyperspace.Resources:CreateImagePrimitiveString("addons/fusion_select2.png", 0, 0, 0, Graphics.GL_Color(1, 1, 1, 1), 1.0, false),
 	event = "ADDON_FUSION_INFO",
 	hover = false,
-	hoverText = Hyperspace.Text:GetText("ADDON_FUSION_INFO_hover_text")
+	hoverText = icon_fusion_hoverText
 }
 
 if not mods.iconsUninstalled then
@@ -31,7 +35,7 @@ if not mods.iconsHooked then
 				--print(tostring(math.abs(mousePos.x - xOffset)).." POS "..tostring(math.abs(mousePos.y - yOffset)))
 				if math.abs(mousePos.x - xOffset-12) < 12 and math.abs(mousePos.y - yOffset-7) < 7 then 
 					iconTable.hover = true 
-					Hyperspace.Mouse.tooltip = iconTable.hoverText
+					Hyperspace.Mouse.tooltip = iconTable.hoverText:GetText()
 				else 
 					iconTable.hover = false 
 				end
@@ -56,7 +60,7 @@ if not mods.iconsHooked then
                     --print(tostring(math.abs(mousePos.x - xOffset)).." POS "..tostring(math.abs(mousePos.y - yOffset)))
                     if math.abs(mousePos.x - xOffset-12) < 12 and math.abs(mousePos.y - yOffset-7) < 7 then 
                         iconTable.hover = true 
-                        Hyperspace.Mouse.tooltip = iconTable.hoverText
+                        Hyperspace.Mouse.tooltip = iconTable.hoverText:GetText()
                     else 
                         iconTable.hover = false 
                     end
