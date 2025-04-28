@@ -86,6 +86,7 @@
 		<mod-append:script>data/fusion_scripts/utility.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/callbacks.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/antiAugments.lua</mod-append:script>
+		<mod-append:script>data/fusion_scripts/custom_fires.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/systems.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/weapon_fire.lua</mod-append:script>
 		<mod-append:script>data/fusion_scripts/weapon_impact.lua</mod-append:script>
