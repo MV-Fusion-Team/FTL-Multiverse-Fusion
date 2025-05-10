@@ -8,9 +8,18 @@ local FIRE_GRID_HEIGHT = 40 --Height of the fireSpreader grid
 local SMOKE_ANIMATION_DURATION = 1 --Length of vanilla smoke animation, in seconds
 local FIRE_ANIMATION_DURATION = 1 --Length of vanilla fire animation, in seconds
 
-local FIRE_EXTEND_INTIALIZATION_LOOP_PRIORITY = 20000-- The priority of the SHIP_LOOP function where Fire_Extend objects are set up.
-local FIRE_STAT_INITIALIZATION_PRIORITY = 10000 --The priority of the SHIP_LOOP function where fire stats are cleared. 
-local FIRE_STAT_APPLICATION_PRIORITY = -10000 --The priority of the SHIP_LOOP function where fire effects are applied.
+--Globally visible constants table
+local constants = setmetatable({}, {
+  __newindex = function() error("Attempt to modify a read-only table", 2) end,
+  __index = {
+    FIRE_EXTEND_INITIALIZATION_LOOP_PRIORITY = 20000, -- The priority of the SHIP_LOOP function where Fire_Extend objects are set up.
+    FIRE_STAT_INITIALIZATION_PRIORITY = 10000, --The priority of the SHIP_LOOP function where fire stats are cleared. 
+    FIRE_STAT_APPLICATION_PRIORITY = -10000,--The priority of the SHIP_LOOP function where fire effects are applied.
+  },
+  __metatable = "protected metatable",
+})
+
+
 --UTILITY FUNCTIONS
 --Iterator over fires in room
 local function fires(room, shipManager)
@@ -99,7 +108,7 @@ function(shipManager)
     end
     fireExtends[shipManager.iShipId] = extends
   end
-end, FIRE_EXTEND_INTIALIZATION_LOOP_PRIORITY)
+end, constants.FIRE_EXTEND_INITIALIZATION_LOOP_PRIORITY)
 
 
 --FIRE MECHANICAL IMPLEMENTATION
@@ -158,7 +167,7 @@ function(shipManager)
       get_fire_extend(fire):Reset()
     end
   end
-end, FIRE_STAT_INITIALIZATION_PRIORITY)
+end, constants.FIRE_STAT_INITIALIZATION_PRIORITY)
 local vanillaSheet = Hyperspace.Resources:GetImageId("effects/largeFire.png")
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, 
 function(shipManager)
@@ -235,14 +244,15 @@ function(shipManager)
       end
     end
   end
-end, FIRE_STAT_APPLICATION_PRIORITY)
+end, constants.FIRE_STAT_APPLICATION_PRIORITY)
 --TODO: Implement fires with crew damage and crew repair multipliers once lua statboosts are active
 
 
 --PUBLIC API
-mods.fusion.get_fire_extend = get_fire_extend --Get the extend attributes of an individual fire. Only works for valid fires within a room.
-mods.fusion.fires = fires --Iterate over all fires in a room.
-
+mods.fusion.custom_fires = {}
+mods.fusion.custom_fires.get_fire_extend = get_fire_extend --Get the extend attributes of an individual fire. Only works for valid fires within a room.
+mods.fusion.custom_fires.fires = fires --Iterate over all fires in a room.
+mods.fusion.custom_fires.constants = constants --Globally visible constants table
 
 --LEGACY BEHAVIORS
 
@@ -279,4 +289,4 @@ function(shipManager)
       get_fire_extend(fire).systemDamageMultiplier = get_fire_extend(fire).systemDamageMultiplier * crewMult * augMult
     end
   end
-end, FIRE_STAT_APPLICATION_PRIORITY + 1)
+end, constants.FIRE_STAT_APPLICATION_PRIORITY + 1)
