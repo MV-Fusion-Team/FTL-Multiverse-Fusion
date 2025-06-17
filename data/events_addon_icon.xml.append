@@ -2,8 +2,7 @@
 
 <FTL>
 <event name="ADDON_FUSION">
-	<hover-text>FUSION 
-	Click to see more info.</hover-text>
+	<hover-text id="addon_hover_fusion"/>
 	<text id="info_addon_fusion"/>
 	<choice>
 		<text id="continue"/>
