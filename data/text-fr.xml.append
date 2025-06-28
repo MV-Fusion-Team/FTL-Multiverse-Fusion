@@ -77,7 +77,6 @@
 
     <!-- misc -->
     <text name="addon_hover_fusion" language="fr">FUSION
-    Actuellement activé.
     Cliquez pour voir plus d'informations.</text>
     <text name="info_addon_fusion" language="fr">FUSION
     Développé par : Kommandant_Julk, Chrono Vortex, Arc, Pepson, Choosechee
@@ -88,7 +87,7 @@
     </text>
 
 
-    <text name="addon_hover_forgemaster" language="fr">FORGEMASTER
+    <!--<text name="addon_hover_forgemaster" language="fr">FORGEMASTER
     Actuellement désactivé.
     Cliquez pour plus d'informations.</text>
     <text name="info_addon_forgemaster" language="fr">FORGEMASTER
@@ -242,13 +241,12 @@
 
     Un addon conçu autour de l'utilisation de Lua pour créer des mécaniques amusantes et uniques, cela inclut une variété de vaisseaux, d'armes, d'équipages, de drones et de quêtes, bien qu'ils ne soient pas entièrement équilibrés, ils essaient tous d'introduire et de se concentrer sur une mécanique unique que vous ne trouveriez pas dans MV autrement.
     Vous pouvez le télécharger sur les forums MV.
-    </text>
+    </text>-->
 
     <!-- tooltips -->
     <text name="inactiveTooltip_unavailable" language="fr">Inaccessible!</text>
     <text name="inactiveTooltip_unavailable_in_danger" language="fr">Inaccessible : Vous ne pouvez pas faire ceci lorsque vous Ãªtes en danger !</text>
     <text name="tooltip_toggle_drone_weapon" language="fr">Toggle un drone ou une arme.</text>
     <text name="tooltip_open_storage_nemu" language="fr">Ouvrir le menu de stockage.</text>
-	<!--Lua-->
-	<text name="ADDON_FUSION_INFO_hover_text" language="fr">FUSION\nActuellement activé.\nCliquez pour voir plus d'informations.</text>
+
 </FTL>
